@@ -1,0 +1,399 @@
+/* MÓVIL CSS */
+@media screen and (max-width: 1000px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Signika", sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333;
+      }
+    .ancho {
+        max-width: 480px;
+        margin: auto;
+      }
+
+    /*Menu superior izquierdo*/
+
+    .contenedor_menu_superior {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: stretch;      
+        /* border: 1px blue solid; */
+        
+      }
+    .menu_superior_izquierdo ul {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items:center;
+        gap: 10px;
+        /* border: 1px red solid; */
+      }
+
+    .btn_nike_logoJ .botones_nike {
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        border: 1.5px gray solid;
+        border-top:0px;
+        margin-top:0px;
+        margin-inline: 3px;
+        margin-inline: 0px;
+        padding-block: 9px;
+        padding-inline: 0px;
+        margin: 0px;
+        height: 100%;
+        width: 490px;
+        text-align: center;
+
+
+        border-right: 0px;
+        border-left: 0px;
+        margin-left:0px;
+        margin-left:0px;
+      }
+
+      .jordan_logo{
+        display: inline-block;
+        text-decoration: none;
+        border: 1.5px gray solid;
+        border-top:0px;
+        padding-left:223px;
+        padding-block: 4.5px;
+        width: 490px;
+        height: 100%;
+        margin-top:0px;
+        align-items: center;
+
+        border-right: 0px;
+        border-left: 0px;
+
+        margin-left:0px;
+        margin-left:0px;
+      }
+      
+    /*Menu superior derecho*/
+
+    .menu_superior_derecho ul{
+        display:flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        justify-content:flex-start;
+        align-items:center;
+        margin-top: 5px;
+      } 
+
+      .seccion_junta{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        padding: 0px;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+
+      }
+      
+      .menu_superior_derecho ul li {
+        display: inline-block;
+        font-size: small;
+        text-decoration: none;
+        margin-left:0px;
+        margin-left:0px;
+        
+      }
+
+      .menu_superior_derecho .seccion_separada {
+        margin-left: 15px;
+        margin-right: 10px;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        border: 1px gray solid;
+       
+        
+      }
+
+      .menu_superior_derecho .seccion_separada {
+        padding-top: 5px;
+        padding-bottom:5px;
+        padding-inline: 10px;
+      }
+
+      .seccion_separada{
+        display:flex;
+        flex-direction:row;
+        align-items: center;
+        padding: 0px;
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        
+      }
+      
+      .menu_superior_derecho ul li a figure img{
+        width: 100%;
+        display: inline-block;
+      }
+
+    /*Menu inferior*/
+
+         .Contenedor_menu_inferior {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            max-width: 1170px;
+            margin: auto;
+            margin-top: 10px;
+            padding-top: 5px;
+        }
+        
+        .menu_inferior {
+            text-align: center;
+        }
+        
+        .menu_inferior ul {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            max-width: 750px;
+          }
+          .menu_inferior ul li {
+            display: inline-block;
+            font-weight: 750;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            margin: 3px;
+            width: 475px;
+            background-color: #d6d2d2;
+            border: 1px gray solid;
+          }
+          .menu_inferior ul li a {
+            padding: 10px;
+            padding: 0px;
+            display: inline-block;
+            color: #333;
+            text-decoration: none;
+            font-size: 15px;
+          }
+        
+        .busqueda {
+            width: 468px;   
+            margin-top: 15px;
+            margin-bottom: 15px;
+
+
+            margin-left:0px;
+            margin-left:0px;
+        }
+        .busqueda input {
+            width: 100%;
+            padding: 5px 0px;
+            border: 1px gray solid;
+            padding-left: 8px;
+            font-size: 16px;
+        }
+
+        /*Barra divisora*/
+
+        .barra_divisora {
+            height: 50px;
+            border: 1px #DADADA solid;
+            background-color: #F7F7F7;
+            padding: 0px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+
+            margin-left:0px;
+            margin-left:0px;
+        }
+
+        /*Seccion imágenes creelo*/
+
+        .foto_creelo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+       
+        }
+        .foto_creelo img {
+            width: 100%;
+            max-width: 400px;
+        }
+
+        .foto_creelo .imagen_separada {
+            margin-inline: 10px;
+        }
+
+        .banner {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: stretch;      
+        }
+        .banner h2{
+            padding-top: 60px;
+            padding-bottom: 20px;
+        }
+
+        .banner p{
+            padding-bottom: 20px;
+            max-width: 414px;
+            text-align: center;
+        }
+
+        .banner a{
+            background-color: #333;
+            border-radius: 4px;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        /*Seccion volamos */
+
+        .foto_volamos {
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            justify-content:center;
+            align-items:stretch;
+            align-content:stretch;
+            height:100vh;
+          }
+        
+        .foto_volamos {
+            margin-top: 40px;
+        }
+        
+        .foto_volamos img {
+          display: inline-block;
+          min-height: 300px;
+        }
+        
+        .foto_volamos .imagen_izquierda {
+            height: 100%;
+            width: 100%;
+        }
+        
+        .foto_volamos .imagen_derecha {
+            display: none;
+            height: 98%;
+            width: 100%;
+          }
+        
+        .banner_volamos{
+            text-align: center;
+          }
+        
+        .banner_volamos h2{
+          padding-top: 25px;
+          padding-bottom: 20px;
+          }
+        .banner_volamos p {
+          padding-block: 5px;
+        }
+        .btn_comprar{
+          padding-top:20px;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: center;
+          align-content: stretch;
+        }
+        .banner_volamos a{
+          padding-top: 10px;
+          background-color: #333;
+          border-radius: 4px;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          margin-bottom: 25px;
+        }
+
+        /*Sección final */
+
+        .fondo {
+            background-image: url(imagenes/calltoaction.jpg);
+            margin-top: 30px;
+            background-repeat: no-repeat;
+            height: 450px;
+            width: 480px;
+            background-position: -500px;
+          }
+        
+          .info_anuncio_seccion_3 {
+            padding-top: 50px;
+            padding-left: 50px;
+            color: white;
+            line-height: 40px;
+          }
+
+          .info_anuncio_seccion_3 h2 {
+            width: 300px;
+            margin-top: -15px;
+            padding-bottom: 0px;
+        }
+
+        .info_anuncio_seccion_3 p {
+            width: 400px;
+            margin-top: 10px;
+            line-height: 20px;
+        }
+
+          .info_anuncio_seccion_3 a {
+            background-color: white;
+            background-size: cover;
+            border-radius: 2px;
+            color: #333;
+            padding: 10px 20px;
+            margin-right: 8px;
+            text-decoration: none;
+
+            width: 265px;
+
+            margin-right: 0px;
+            margin-top: 18px;
+          }
+
+        
+        #CMujer{
+            width: 250px;
+        }
+
+
+        .botones_final{
+          padding-top:10px;
+          display: flex;
+          flex-direction: column;  
+        }
+
+
+        /*Flooter*/
+
+        footer {
+            background-color: #222222;
+            font-weight: bold;
+            color: white;
+            padding: 15px;
+          }
+
+
+
+
+  }
